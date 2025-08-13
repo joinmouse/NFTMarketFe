@@ -4,7 +4,7 @@ const isProd = process.env.NODE_ENV === "production";
 
 export const request = axios.create({
   // baseURL: isProd ? '/api/v1' : 'http://nft.rcc-tec.xyz',
-  baseURL: "http://frankwu.site:8080/api/v1",
+  baseURL: "https://frankwu.site/api/v1",
   timeout: 50000,
   headers: {
     "Content-Type": "application/json",
